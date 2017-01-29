@@ -32,3 +32,13 @@ print(number * secondnumber + secondnumber * number)
 
 check = True
 print(check)
+
+
+print ("string function" + str(25))
+print (int("23"))
+print (float("4.4444"))
+print (bool("True")   )
+print ("length of 'Hello world'") + str(len("Hello world"))
+print ("length of an array") + str(len([1, 2, 4, 5, 34]))
+print ("length of an array" + str (len (["hello", "world"])))
+
