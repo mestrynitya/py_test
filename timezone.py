@@ -15,7 +15,7 @@ localFormat = "%Y-%m-%d %H:%M:%S"
 utcmoment_unaware = datetime.utcnow()
 utcmoment = utcmoment_unaware.replace(tzinfo=pytz.utc)
 
-timezones = ['America/Los_Angeles', 'Asia/Kolkata', 'Etc/Greenwich', 'Etc/GMT+1', 'UTC']
+timezones = ['America/Los_Angeles', 'Etc/GMT+1', 'Etc/Greenwich', 'UTC', 'Asia/Kolkata']
 
 for tz in timezones:
     localDatetime = utcmoment.astimezone(pytz.timezone(tz))
