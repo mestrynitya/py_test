@@ -1,3 +1,0 @@
-testcommit
-testcommit2
-testcommit3
