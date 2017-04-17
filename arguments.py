@@ -19,3 +19,8 @@ for arg in arguments:
         print ("bad input")
 
 print (sum)
+
+print ("hello")
+
+colour = input("what is favourite colour")
+print (colour)
