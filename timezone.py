@@ -4,7 +4,6 @@ from pytz import timezone
 south_africa = timezone('Africa/Johannesburg')
 sa_time = datetime.datetime.now(south_africa)
 print sa_time.strftime('%Y-%m-%d_%H-%M-%S')
-
 '''
 
 from datetime import datetime
