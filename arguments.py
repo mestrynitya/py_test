@@ -22,5 +22,5 @@ print (sum)
 
 print ("hello")
 
-colour = input("what is favourite colour")
+colour = raw_input("what is favourite colour")
 print (colour)
